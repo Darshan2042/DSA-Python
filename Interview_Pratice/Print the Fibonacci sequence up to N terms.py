@@ -1,0 +1,7 @@
+#Print the Fibonacci sequence up to N terms.
+n = 5
+a , b = 0 , 1
+for i in range(n):
+    print(a)
+    a,b=b,a+b
+    
